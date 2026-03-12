@@ -30,7 +30,7 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # ---------------- AI SETUP ---------------- #
 
-genai.configure(api_key="AIzaSyBb-oRhu8w0oMEUVBbmcwe9f2ux_OU3FdE")
+genai.configure(api_key="AIzaSyB6DbWDPgivctMibq-bhH99ltxyn0-n46A")
 model = genai.GenerativeModel("gemini-3-flash-preview")
 # --- NLP PARSER PROMPT ---
 CLINICAL_PARSER_PROMPT = """
